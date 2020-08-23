@@ -1,0 +1,22 @@
+/* pages/CA_Intro/CA_Intro.wxss */
+
+
+
+/*
+.container swiper{
+  width: 100%;
+}
+.container swiper image{
+  width: 100%;
+} */
+
+.home-swiper {
+  /* padding-left: 30px; */
+  width: 100%;
+  height: 400rpx;
+}
+
+image {
+    width: 375.2px;
+    height: 100%;
+}

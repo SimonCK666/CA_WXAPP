@@ -1,0 +1,49 @@
+<!--pages/CA_Intro/CA_Intro.wxml-->
+
+<view>
+    <!--
+    current: 当前所在块的 index
+    interval: 自动切换时间间隔
+    duration: 欢动动画时长
+    circular: 是否采用衔接滑动
+    -->
+    <swiper
+    class="home-swiper"
+    autoplay="{{autoplay}}"
+    current="{{swiperCurrent}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    circular="{{circular}}"
+    indicator-dots="{{indicatorDots}}"
+    >
+        <block wx:for="{{list}}" wx:key="{{list}}">
+            <swiper-item class="slde-image">
+                <image src="{{item.urlImg}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+
+
+
+
+<!-- 是否启动自动轮播饿计时 -->
+<!-- <view class="page-section" style="margin-top: 40rpx;margin-bottom: 0;">
+<view class="weui-cells weui-cells_after-title">
+<view class="weui-cell weui-cell_switch">
+    <view class="weui-cell__bd">指示点</view>
+    <view class="weui-cell__ft">
+    <switch checked="{{indicatorDots}}" bindchange="changeIndicatorDots" />
+    </view>
+</view>
+<view class="weui-cell weui-cell_switch">
+    <view class="weui-cell__bd">自动播放</view>
+    <view class="weui-cell__ft">
+    <switch checked="{{autoplay}}" bindchange="changeAutoplay" />
+    </view>
+</view>
+</view>
+</view> -->
+
+

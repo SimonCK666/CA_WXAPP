@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/CA_Intro/CA_Intro",
+    "pages/logs/logs"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+        {
+            "pagePath": "pages/CA_Intro/CA_Intro",
+            "text": "CA",
+            "iconPath": "icon/computer.png",
+            "selectedIconPath": "icon/computerSelected.png"
+        },
+        {
+            "pagePath": "pages/logs/logs",
+            "text": "test",
+            "iconPath": "icon/homePage.png",
+            "selectedIconPath": "icon/selectedHomePage.png"
+        },
+        {
+            "pagePath": "pages/index/index",
+            "text": "Mine",
+            "iconPath": "icon/homePage.png",
+            "selectedIconPath": "icon/selectedHomePage.png"
+        }
+    ],
+    "selectedColor": "#BDB76B"
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
